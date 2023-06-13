@@ -26,5 +26,8 @@
 "editor.defaultFormatter": "HookyQR.beautify",
 "[javascript]": {
     "editor.defaultFormatter": "mblode.pretty-formatter"
+},
+"[html]": {
+    "editor.defaultFormatter": "mblode.pretty-formatter"
 }
 }
