@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.getAttribute("data-type") === "submit") {
                 checkAnswer();
             } else {
-                let gameType = this.getAttribute("data-type");
+                let gameType = this.getAttribute("data-type"); // this. refers to the variable button
                 runGame(gameType);
             }
         });
