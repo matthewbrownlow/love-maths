@@ -15,15 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    document.getElementById("answer-box").addEventListener("keydown", fucntion(event) { // Allows the user to press Enter to subit their answer rather than clickign the SUBMIT ANSWER button
-        if (event.key ==="Enter") {
+     document.getElementById("answer-box").addEventListener("keydown", function(event) { // Allows the user to press Enter to subit their answer rather than clickign the SUBMIT ANSWER button
+        if (event.key === "Enter") {
             checkAnswer();
         }
-    })
-
-    runGame("addition");
-
-});
+    });
 
 /**
  * The main game "loop", called when the script is first loaded
